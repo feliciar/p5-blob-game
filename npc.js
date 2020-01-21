@@ -4,8 +4,8 @@ class NPC {
         this.center = this.position.copy().add(15, 15);
         this.velocity = createVector(0, 0);
         this.acceleration = createVector(0, 0);
-        this.speed = 5;
-        this.maxSpeed = 5;
+        this.speed = 3;
+        this.maxSpeed = 3;
         this.speedIncrease = 1.5;
         this.minSpeed = 0.5;
     }
